@@ -7,7 +7,7 @@ public class Menu {
 
     public void selectMenu() {
         System.out.println("##포켓몬스터##");
-        System.out.println("1. 모험을 계속하다");
+        System.out.println("1. 모험을 계속하다?");
         System.out.println("2. 새로운 모험을 시작하다 ");
         System.out.println("3. 설정을 바꾸다");
     }
