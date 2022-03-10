@@ -11,7 +11,7 @@ public class Menu2{
     public Menu2() {
     }
 
-    public static void ProfessorOak(){
+    public static void MrOak(){
         Scanner scanner = new Scanner(System.in);
             try{
                 //파일 객체 생성
