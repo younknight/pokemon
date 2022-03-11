@@ -23,12 +23,11 @@ public class Menu2{
                 String line = "";
                 while((line = bufReader.readLine()) != null){
                     System.out.println(line);
-
-
                     if(line.equals("이름을 입력하세요:")) {
                         String name = scanner.next();
                         System.out.println("이름은 " + name + "입니다.");
                     }
+                    char a1 = (char)System.in.read();
 
                 }
                 //.readLine()은 끝에 개행문자를 읽지 않는다.
