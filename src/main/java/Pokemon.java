@@ -16,14 +16,26 @@ public class Pokemon {
             System.out.println("pc로 보냅니다");
         }
         int flag = scanner.nextInt();
-        if (flag == 1) {
-            monster.add("꼬부기");
+        System.out.println("이름을 바꾸시겠습니까?:");
+        System.out.println("yes: 1");
+        System.out.println("no: 2");
+        int YN = scanner.nextInt();
+        if(YN==1){
+            String setname = scanner.next();
+            monster.add(setname);
         }
-        if (flag == 2) {
-            monster.add("파이리");
-        }
-        if (flag == 3) {
-            monster.add("이상해씨");
+        else {
+            if (flag == 1) {
+
+                monster.add("꼬부기");
+
+            }
+            if (flag == 2) {
+                monster.add("파이리");
+            }
+            if (flag == 3) {
+                monster.add("이상해씨");
+            }
         }
     }
         public void status(){
